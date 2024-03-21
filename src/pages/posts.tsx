@@ -8,7 +8,7 @@ import { PostsList } from '@/entities/post/ui/post-list'
 
 export const Posts = () => {
   const [page, setPage] = useState(1)
-  const [visiblePosts, setVisiblePosts] = useState<IPost[]>([]) // Указываем тип данных для visiblePosts
+  const [visiblePosts, setVisiblePosts] = useState<IPost[]>([])
   const {
     data: posts,
     isLoading,
